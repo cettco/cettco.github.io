@@ -5,8 +5,8 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:600' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="{{ "/assets/css/google_open_sans.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'>
+  <link href="{{ "/assets/css/google_source_sans.css" | prepend: site.baseurl }}" rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}
@@ -15,4 +15,5 @@
   <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/skeleton.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/default.css" | prepend: site.baseurl }}">
+  <script type="text/javascript" src="http://tajs.qq.com/stats?sId=52134859" charset="UTF-8"></script>
 </head>
