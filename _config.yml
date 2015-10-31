@@ -1,0 +1,11 @@
+# Site settings
+title: cettco
+email: zhangshiqi68@gmail.com
+description: Change EveryThing To The Crazy One
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cettco.com" # the base hostname & protocol for your site
+twitter_username: cettco
+github_username:  cettco
+
+# Build settings
+markdown: kramdown

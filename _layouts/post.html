@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+    	<header>
+    		<p><a href="{{ "/" | prepend: site.baseurl }}">Home</a></p>
+    	</header>
+    	<div class="content">
+    			<section >
+                    {{ content }}
+                </section>
+    	</div>
+    	<footer>
+    		<p>© 2015. All rights reserved.</p>
+    	</footer>
+    </body>
+    
+</html>
