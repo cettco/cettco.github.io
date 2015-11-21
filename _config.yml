@@ -8,4 +8,5 @@ twitter_username: cettco
 github_username:  cettco
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+markdown: redcarpet
