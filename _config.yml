@@ -9,4 +9,4 @@ github_username:  cettco
 
 # Build settings
 #markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
